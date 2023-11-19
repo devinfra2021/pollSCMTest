@@ -1,6 +1,6 @@
 pipeline {
     agent any
-    option{
+    options{
         buildDiscarder(logRotator(numToKeepStr: '1'))
     }
     triggers {
